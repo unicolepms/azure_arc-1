@@ -3,16 +3,16 @@
   "contentVersion": "1.0.0.0",
   "parameters": {
     "sshRSAPublicKey": {
-      "value": "<your RSA public key>"
+      "value": "ssh-rsa YtItfZNSpATL6uQqPeNWmMVlYvNqelIdHtoeAk7hTm0 europe\nicolepham@MININT-2U2N8QJ"
     },
     "spnClientId": {
-      "value": "<your service principal client id>"
+      "value": "ad136834-615e-474b-a964-5ecc9483ce42"
     },
     "spnClientSecret": {
-      "value": "<your service principal secret>"
+      "value": "2CI~tcBkW_6ZPdxquho63QDCOF-7PzK1A."
     },
     "spnTenantId": {
-      "value": "<your spn tenant id>"
+      "value": "72f988bf-86f1-41af-91ab-2d7cd011db47"
     },
     "windowsAdminUsername": {
       "value": "arcdemo"
@@ -21,19 +21,19 @@
       "value": "ArcPassword123!!"
     },
     "myIpAddress": {
-      "value": "<your IP address>"
+      "value": "192.168.188.20"
     },
     "logAnalyticsWorkspaceName": {
-      "value": "<your unique Log Analytics workspace name>"
+      "value": "LogAnalyticsWS"
     },
     "deploySQLMI": {
-      "value": "<SQL Managed Instance deployment (true/false)>"
+      "value": true
     },
     "SQLMIHA": {
-      "value": "<SQL Managed Instance high-availability deployment (true/false)>"
+      "value": false
     },
     "deployPostgreSQL": {
-      "value": "<PostgreSQL Hyperscale deployment (true/false)>"
+      "value": false
     },
     "templateBaseUrl": {
       "value": "https://raw.githubusercontent.com/microsoft/azure_arc/main/azure_arc_data_jumpstart/aks/arm_template/"
